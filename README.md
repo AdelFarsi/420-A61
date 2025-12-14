@@ -5,8 +5,10 @@ régression entraîné sur le jeu de données Ames Housing. L’objectif est de 
 d’une maison à partir de ses caractéristiques, en exposant le modèle via une API REST développée 
 avec Flask. 
 Le projet est structuré en deux packages principaux : 
+
 • Le package regression_model contient le pipeline de traitement, le modèle de régression et 
 les scripts de prédiction. 
+
 • Le package ml_api regroupe l’API Flask, la validation des données via Pydantic, les tests 
 unitaires et les endpoints /predict et /version. 
 
